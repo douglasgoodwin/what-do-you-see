@@ -1,7 +1,7 @@
 # what do you see?
-geenrate imagery by one of three approaches.
+generate imagery for a short video by one of three approaches.
 
-1. generate sequences synthetic clouds and submit them to an AI that determines if the images are SFW. Collect the images that will not pass for safe	
+1. generate sequences of synthetic clouds (by conditional adversarial networks?) and submit them to an AI that determines if the images are SFW. Collect the images that will not pass for safe.
 2. start a database of cloud images. search through frames of pornography for areas that may be classified as cloud. Replace the source images with clouds. 
 3. find the "skies" in databases of pornography. use a computer to determine if the image contains sky. 
 4. is this working?
@@ -18,12 +18,18 @@ geenrate imagery by one of three approaches.
 8. [Neural style in TensorFlow](https://github.com/anishathalye/neural-style)
 9. [Magenta: Music and Art Generation with Machine Intelligence](https://github.com/tensorflow/magenta)
 10. [Genetic Programming: Mona Lisa FAQ](https://rogerjohansson.blog/2008/12/09/genetic-programming-mona-lisa-faq/)
+11. [plat (v): plan out or make a map of](https://github.com/dribnet/plat)
 
 ## research, articles, courses
 
 1. [A note on the evaluation of generative models](http://www.perceptron.net/media/publications/1511.01844v3.pdf), Lucas Theis, Aäron van den Oord, Matthias Bethge
 2. [Art in the Age of Machine Intelligence](https://medium.com/artists-and-machine-intelligence/what-is-ami-ccd936394a83), Blaise Aguera y Arcas
 3. [Creative Applications of Deep Learning w/ Tensorflow](https://github.com/pkmital/CADL), Parag K Mital
+4. [awesome General Adversarial Networks](https://github.com/nightrome/really-awesome-gan)
+5. [Sampling Generative Networks](https://arxiv.org/abs/1609.04468), Tom White
+6. [Conditional generative adversarial nets for convolutional face generation](http://www.foldl.me/uploads/papers/tr-cgans.pdf), Jon Gauthier
+
+![](https://www.evernote.com/l/ADPBe2yIHIRPfZOTr11mwTlIfKeDnJKh91oB/image.png)
 
 ## things to try
 gather images of clouds, add to local deepdream database. 
