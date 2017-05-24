@@ -1,82 +1,124 @@
 # Thirteen Ways of Looking at a Blackbird
 BY WALLACE STEVENS
 
-## I 
-Among twenty snowy mountains,   
-The only moving thing   
-Was the eye of the blackbird.   
+## I
 
-## II 
-I was of three minds,   
-Like a tree   
-In which there are three blackbirds.   
+```
+Among twenty snowy mountains,
+The only moving thing
+Was the eye of the blackbird.
+```
 
-## III 
-The blackbird whirled in the autumn winds.   
-It was a small part of the pantomime.   
+## II
 
-## IV 
-A man and a woman   
-Are one.   
-A man and a woman and a blackbird   
-Are one.   
+```
+I was of three minds,
+Like a tree
+In which there are three blackbirds.
+```
 
-## V 
-I do not know which to prefer,   
-The beauty of inflections   
-Or the beauty of innuendoes,   
-The blackbird whistling   
-Or just after.   
+## III
 
-## VI 
-Icicles filled the long window   
-With barbaric glass.   
-The shadow of the blackbird   
-Crossed it, to and fro.   
-The mood   
-Traced in the shadow   
-An indecipherable cause.   
+```
+The blackbird whirled in the autumn winds.
+It was a small part of the pantomime.
+```
 
-## VII 
-O thin men of Haddam,   
-Why do you imagine golden birds?   
-Do you not see how the blackbird   
-Walks around the feet   
-Of the women about you?   
+## IV
 
-## VIII 
-I know noble accents   
-And lucid, inescapable rhythms;   
-But I know, too,   
-That the blackbird is involved   
-In what I know.   
+```
+A man and a woman
+Are one.
+A man and a woman and a blackbird
+Are one.
+```
 
-## IX 
-When the blackbird flew out of sight,   
-It marked the edge   
-Of one of many circles.   
+## V
 
-## X 
-At the sight of blackbirds   
-Flying in a green light,   
-Even the bawds of euphony   
-Would cry out sharply.   
+```
+I do not know which to prefer,
+The beauty of inflections
+Or the beauty of innuendoes,
+The blackbird whistling
+Or just after.
+```
 
-## XI 
-He rode over Connecticut   
-In a glass coach.   
-Once, a fear pierced him,   
-In that he mistook   
-The shadow of his equipage   
-For blackbirds.   
+## VI
 
-## XII 
-The river is moving.   
-The blackbird must be flying.   
+```
+Icicles filled the long window
+With barbaric glass.
+The shadow of the blackbird
+Crossed it, to and fro.
+The mood
+Traced in the shadow
+An indecipherable cause.
+```
 
-## XIII 
-It was evening all afternoon.   
-It was snowing   
-And it was going to snow.   
-The blackbird sat   
+## VII
+
+```
+O thin men of Haddam,
+Why do you imagine golden birds?
+Do you not see how the blackbird
+Walks around the feet
+Of the women about you?
+```
+
+## VIII
+
+```
+I know noble accents
+And lucid, inescapable rhythms;
+But I know, too,
+That the blackbird is involved
+In what I know.
+```
+
+## IX
+
+```
+When the blackbird flew out of sight,
+It marked the edge
+Of one of many circles.
+```
+
+
+## X
+
+```
+At the sight of blackbirds
+Flying in a green light,
+Even the bawds of euphony
+Would cry out sharply.
+```
+
+## XI
+
+```
+He rode over Connecticut
+In a glass coach.
+Once, a fear pierced him,
+In that he mistook
+The shadow of his equipage
+For blackbirds.
+```
+
+
+## XII
+
+```
+The river is moving.
+The blackbird must be flying.
+```
+
+
+## XIII
+
+```
+It was evening all afternoon.
+It was snowing
+And it was going to snow.
+The blackbird sat
 In the cedar-limbs.
+```
