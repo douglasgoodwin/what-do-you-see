@@ -9,9 +9,9 @@ geenrate imagery by one of three approaches.
 ## things to try
 gather images of clouds, add to local deepdream database. 
 
-all the images in the frame are made synthetically or generatively. made from the top ten armchairs. 
+all the images in the frame are made synthetically or generatively. for example, you might make the decor out of images of the bestselling armchairs. Or the people. Like a synthetic komar and melamid. But it's also how House of Cards was structured. People like Kevin Spacey, political intrigue, murder mysteries. 
 
-destory the personality / diversity of local coffeeshops. 
+destory the personality / diversity of local coffeeshops. West Elm and AirBnB culture. Everything will be comfortable and look familiar. 
 
 Oliver Husain. the edges, the fragility of construction. 
 
@@ -21,7 +21,7 @@ But start with just the clouds. Let them develop into imagery that's NSFW.
 
 everything is produced by morphing and averaging. 
 
-AI creating nrratives. 
+AI creating narratives. 
 
 ## Mario Klingemann (Google fellow)
 look at this video and document his approach. How does he "tune" his database?
