@@ -10,6 +10,7 @@ geenrate imagery by one of three approaches.
 ## questions
 1. would greyscale images provide more NSFWness?
 2. where would we find a useful cloud library? See below.
+3. what about [pareidolia](http://www.bbc.com/news/magazine-22686500)? 
 
 
 ## links
