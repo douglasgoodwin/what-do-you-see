@@ -6,6 +6,8 @@ geenrate imagery by one of three approaches.
 3. find the "skies" in databases of pornography. use a computer to determine if the image contains sky. 
 4. is this working?
 
+editing now!
+
 
 ## questions
 1. would greyscale images provide more NSFWness?
