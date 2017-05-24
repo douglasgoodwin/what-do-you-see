@@ -1,12 +1,39 @@
 # what do you see?
 geenrate imagery by one of three approaches.
 
-1. generate sequences synthetic clouds and submit them to an AI that determines if the images are SFW. Collect the images that will not pass for safe
+1. generate sequences synthetic clouds and submit them to an AI that determines if the images are SFW. Collect the images that will not pass for safe	
 2. start a database of cloud images. search through frames of pornography for areas that may be classified as cloud. Replace the source images with clouds. 
 3. find the "skies" in databases of pornography. use a computer to determine if the image contains sky. 
 4. is this working?
 
-editing now!
+## things to try
+gather images of clouds, add to local deepdream database. 
+
+all the images in the frame are made synthetically or generatively. made from the top ten armchairs. 
+
+destory the personality / diversity of local coffeeshops. 
+
+Oliver Husain. the edges, the fragility of construction. 
+
+shadows interacting with composited environments where the images are made from synethesis. 
+
+But start with just the clouds. Let them develop into imagery that's NSFW. 
+
+everything is produced by morphing and averaging. 
+
+AI creating nrratives. 
+
+## Mario Klingemann (Google fellow)
+look at this video and document his approach. How does he "tune" his database?
+https://www.youtube.com/watch?v=egk683bKJYU
+
+He is doing other work with morphing and averaging. 
+
+
+
+## who might be interested in this work?
+- Jen Mergel
+- Alex Galloway
 
 
 ## questions
