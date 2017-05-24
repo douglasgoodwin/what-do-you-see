@@ -17,6 +17,7 @@ geenrate imagery by one of three approaches.
 7. [Pikazo App Lets You Paint Neural Network Art Masterpieces](https://creators.vice.com/en_us/article/pikazo-neural-network-art-app)
 8. [Neural style in TensorFlow](https://github.com/anishathalye/neural-style)
 9. [Magenta: Music and Art Generation with Machine Intelligence](https://github.com/tensorflow/magenta)
+10. [Genetic Programming: Mona Lisa FAQ](https://rogerjohansson.blog/2008/12/09/genetic-programming-mona-lisa-faq/)
 
 ## research, articles, courses
 
