@@ -1,0 +1,854 @@
+Machine learning & art - Google I/O 2016
+Google Developers 
+Transcript
+
+English - CC
+0:00DAMIEN HENRY: Hello everyone.
+0:01My name is Damien.
+0:02And I feel very lucky today, because two great artists,
+0:06Cyril Diagne and Mario Klingemann
+0:09will join me on stage in a few minutes
+0:12so you can see what they do when they use machine learning.
+0:18So if you want to go to the bathroom or text,
+0:21please do it while I'm doing the intro.
+0:23But when they are there, this is a really [INAUDIBLE].
+0:27So I'm working for the Cultural Institute in Paris.
+0:31And the mission of the Cultural Institute
+0:33is to help to a museum, an institution,
+0:36to digitalize and to shared their culture, their assets
+0:42online.
+0:43We are working with more than 1,000 museums.
+0:48And it means that if you want to discover
+0:50a new museum every week, it will take you 20 years to do so.
+0:56What we do in the Cultural Institute is this app.
+0:58It's named the Google Arts and Culture App.
+1:01It's really a beautiful app.
+1:03And if you have not downloaded yet, you should do.
+1:06There are a ton of really incredible features.
+1:09And one of my favorites is named Gigapixel.
+1:13Gigapixel is done using the art camera.
+1:18And the art camera is able to catch
+1:22every detail in a painting-- so every crack, every blue stuff,
+1:26you can see them in the app.
+1:28You can zoom in very deeply in the app, to see,
+1:31for instance, "Starry Night."
+1:34But I'm not working on this app.
+1:36I'm working in a space named The Lab.
+1:38It's in the middle of Paris.
+1:39It's a beautiful space.
+1:41I feel lucky every day when I go there.
+1:44And it's a space dedicated for creativity.
+1:48And just as a fun fact, it's where the Cardboard is born.
+1:55David Coz and I use a laser cutter
+1:57there to create the very first Cardboard-- the one that was
+2:01unveiled at I/O two years ago.
+2:03That's what I have to show today.
+2:06And last year, we also worked at the lab,
+2:07for instance, on this picture.
+2:09You can see some early prototype of the Cardboard
+2:12that was unveiled at I/O Google last year.
+2:15But here for the Cardboard today,
+2:17even if I have still a strange relationship with the VR team,
+2:21I also have a small team in Paris that's is named CILEx.
+2:26It stands for Cultural Institute Experiment Team.
+2:29And what we do, we do experiments
+2:31with creative [INAUDIBLE] and artists.
+2:34We are very passionate about three different axes.
+2:39We try to engage more people to enjoy culture.
+2:43So we try to find fun ways for people to watch more paintings.
+2:48We try to find also a new way to organize information.
+2:52So our user can have a journey in our database,
+2:56and [INAUDIBLE] can learn something out of it.
+2:59And obviously, because we have seven million assets
+3:02in the database, we try to analyze
+3:03them to discover new insights.
+3:08So this talk is about machine learning, obviously.
+3:13And just take 30 seconds to remind of the definition.
+3:18Just to make things simple, let's imagine
+3:20that you are writing an algorithm
+3:22to check if a picture is a cat picture.
+3:26You can do it yourself, by trying
+3:28to analyze all the pixels one by one, but obviously,
+3:30it's difficult. Or what you can do is, using machine learning,
+3:35having an algorithm that will learn by itself
+3:39what are the good features to check
+3:42if a picture is a cat picture.
+3:48So the key, I think, is this is happening now.
+3:54Machine learning is not the future.
+3:56Machine learning is something that everybody in this audience
+3:59can do, can try.
+4:00If you know how to code, you can try machine learning.
+4:04For example, did you know that you
+4:06can create some "Mario Brothers" levels just using a [INAUDIBLE]
+4:11networks.
+4:11Or you can make a color movie from a black and white.
+4:15Or you can make a 3D movie from a 2D movie.
+4:19So things that seem difficult or impossible
+4:22are something that you can do now using machine learning
+4:25and neural networks.
+4:27And as an example, this one is "Inside the Brother."
+4:30It's David R from Japan, designer and artist.
+4:34And he just decided to make these simple games
+4:36with two volley players.
+4:38And in fact, they play extremely well just
+4:42using a very, very simple neural network
+4:44that he displays on the screen.
+4:48So because machine learning is so useful and widespread now,
+4:54there is no doubt that it will have a huge impact
+4:57on art and on artists.
+5:01So that's why we decide something like one year
+5:04ago to create a machine learning residency in the lab.
+5:09So we asked artists to join us and to create great experience.
+5:13So now I will leave to Mario Klingemann with our latest
+5:18artist in residence.
+5:20MARIO KLINGEMANN: Thank you, Damien.
+5:21[APPLAUSE]
+5:25Hi, everybody.
+5:26My name's Mario Klingemann.
+5:27And I'm a code artists.
+5:29And might sound like I'm kind of really good at indentation
+5:33or write beautiful code.
+5:35But that's not really what it is.
+5:37It just says that I'm using code and algorithms to produce
+5:42things that look interesting.
+5:43And some of them might even be called art.
+5:45I don't know-- I'm not the one to decide that.
+5:48Like any other artist, I have this problem.
+5:52You look around you, and it looks like everything
+5:55has already been done.
+5:56I mean, in times of Google, you come up with a great idea,
+6:01you Google it, and think, oh, well, OK, done already.
+6:04So it seems there are no empty spaces anymore--
+6:07no white spaces where you can make your mark,
+6:09where you can kind of be original.
+6:12On the other hand, if you look at it,
+6:16there are no real-- humans are incapable of having
+6:19original ideas.
+6:20Ideas are always just recombination of something
+6:24some other people have done before.
+6:26You take concept A and constant B,
+6:28and the idea is finding a new connection between them.
+6:32And so this is where, for me, the computer can help
+6:35me finding these connections.
+6:37So in theory, all I have to do is
+6:39go through every possible permutation.
+6:41And the computer will offer me new combinations that,
+6:44hopefully, not have been done.
+6:46And all I have to do is sit back,
+6:48and let the whatever it has created pass by,
+6:52and decide if I like it or not.
+6:54So in a way, I'm becoming more of a curator than a creator.
+6:59I'll show you a short example.
+7:00So this is a tool I call Ernst.
+7:05It's a kind of an homage to Max Ernst, an artist
+7:09famous for his surreal collages back in the early 20th century.
+7:15And what he did, he created these collages from things
+7:19he found in papers, and catalogs, et cetera.
+7:22So I decided, well, maybe I'll build my own collage tool.
+7:26And in this case, I'm using assets
+7:28found in the vast collection of public domain images
+7:32by the Internet Archive.
+7:34And I wrote me a tool that helps me to automatically
+7:37cut them out.
+7:38And then I say, OK, if I give you these five elements, what
+7:41can you do with them?
+7:43And then it produces me stuff like these.
+7:45And unlike Max Ernst, I have the possibility
+7:48to also scale material.
+7:52And then you get these.
+7:53If you have like pipes, you get fractal structures,
+7:55things that look like plants.
+7:57And the process is very like this.
+7:59I have this tool with all the library elements,
+8:01and then it just starts combining them in random ways.
+8:05And sometimes, I see something that I like.
+8:07Very often I see things that are just horrible,
+8:11or just total chaos.
+8:14But yet, sometimes there's something that looks like this.
+8:17I call that, for example, "Run, Hipster, Run."
+8:19And I must say, coming up with funny titles
+8:23or very interesting titles is, of course, a nice perk
+8:26of this way of working.
+8:28But of course, there's still this problem
+8:29that I still have to look through a lot of images which
+8:33are just noise, just chaos.
+8:36So wouldn't it be nice if the machine could
+8:39learn what I like, what my tastes are, or, even better,
+8:43what other people like.
+8:44And then I can sell them better.
+8:46So I realized I have to first understand
+8:50what do humans find interesting in images?
+8:53What is it that makes one image more artful than another one?
+8:58And this directed my view to this growing amount
+9:02of digital archives.
+9:03And those are now-- there are lots of museums and libraries
+9:07out there that start digitizing all their old books
+9:10and paintings, just like the Cultural Institute
+9:13helps museums doing that.
+9:15And so I first stumbled upon this about two years ago,
+9:18when the British Library uploaded one million images
+9:22that were automatically extracted from books spanning
+9:25from 1500 to 1899.
+9:28There was only a little kind of a problem with it,
+9:32because all these illustrations and photos
+9:35were cut out automatically.
+9:37So they had OCR scans, and then they
+9:41knew there would be an image in a certain area.
+9:44But unless you didn't look yourself at the image,
+9:47you wouldn't know what's actually on it.
+9:49So if you were looking for, let's
+9:50say, a portrait of Shakespeare, you
+9:52would have to manually go through every image
+9:54until you maybe struck upon it.
+9:56So I thought that's a bit tricky.
+9:58Maybe I can help them with classifying their material,
+10:03and training the computer.
+10:05OK, this is a portrait.
+10:06This is a map.
+10:07So I started in a way figuring out ways how I could do that.
+10:13And eventually, I was able to tag
+10:16about 400,000 images for them.
+10:18I mean, this was a kind of group effort.
+10:20Everybody could join in.
+10:22But working with this material, I realized,
+10:25is such a joyful experience, because in the beginning,
+10:28I was just interested in the machine learning.
+10:30But actually, you suddenly realize
+10:33there's this goldmine, this huge mine of material.
+10:38And sometimes, really, you go through lots
+10:41of things that seem to be boring or you're not interested in.
+10:43And then you strike upon a beautiful illustration
+10:46or something.
+10:48And I realized that is actually a huge part
+10:53of the fun of the process.
+10:54So for example, take this rock or stone axe.
+10:59Well, once you go through this material,
+11:01you start recognizing patterns.
+11:03And so sometimes there comes this rock by.
+11:05And you say, OK, well, I don't care.
+11:07But then the second one, and you say, oh, maybe I
+11:09should start at a rock collection or rock category.
+11:13And then what happens is, suddenly
+11:16you are happy when every time you come another one of those.
+11:20And then, well, what I do is I start
+11:23arranging them, and putting them kind of in a new context.
+11:27And then you start actually starting
+11:29to appreciate the craftsmanship that went into this.
+11:33And also you can-- once you put lots of very similar things
+11:36together, you can much better distinguish
+11:38between the slight differences in there.
+11:41Yes, so I start doing this.
+11:43For example, here on the left side,
+11:44you see a piece called to 36 anonymous profiles.
+11:48There's all these 100s, 1,000s of geological profiles, which,
+11:52again, you probably, if you're not interested or are
+11:55a geologist, you wouldn't care.
+11:57But like this, it becomes a really interesting field
+12:00or just a way to bring these things that maybe sometimes
+12:05have been hidden for 100 years in a book,
+12:08and nobody has watched them.
+12:10And now you can bring them back to life.
+12:12Or on the right side, a piece I call "16 Very Sad Girls."
+12:16Again, I don't know why they have
+12:18so many sad girls in there.
+12:20But of course, again, that makes you question what
+12:22was happening at that time?
+12:24So it actually motivates you to search back
+12:26and, well, what's the story behind this?
+12:29But this all I started kind of on my own.
+12:32And this was not-- I wouldn't say it wasn't
+12:35deep learning what I was doing.
+12:36It was more classical machine learning.
+12:38Because I was always a little bit afraid
+12:40of going down this path.
+12:41I heard, oh, you need expensive machines.
+12:44And it's kind of hard to set up the machine.
+12:46So I needed something to get me motivated to go
+12:51through the painful process of installing everything to get
+12:54a machine learning system.
+12:55Luckily, about a year ago, this came along.
+12:59I don't know if you have seen this picture,
+13:00but when I saw it, thought, oh, my god.
+13:03This looks kind of weird, and I have never seen this before.
+13:06Fortunately, about a week later, after this leaked,
+13:10it was clear some engineers at Google
+13:15had come up with this new technique called Deep Dream.
+13:17And it's based on machine learning.
+13:19So of course, I wanted to know how can I do this myself?
+13:22Fortunately, what they did-- they actually
+13:25shared an IPython Notebook on GitHub,
+13:27with all the source code, even the trained model.
+13:30And it was able to dig myself into this.
+13:34Back in the days, there was no TensorFlow flow yet,
+13:36so this was still in Caffe.
+13:38But this allowed me to finally kind of go by baby steps
+13:43into learning this technique.
+13:45And obviously, I started-- like probably a lot of us--
+13:49I started to having a lot of fun with this.
+13:51You put in an image, and you wonder, oh, my god,
+13:53what I get out of this?
+13:55Because that's what it is.
+13:57You put something in.
+13:58You had no idea what you would get.
+14:01So this was fun for, let's say, a few weeks.
+14:05But then I started thinking, OK, I
+14:08think I could make some improvements to this code.
+14:10And I would call this Lucid Dreaming--
+14:13so maybe get a little bit more control or change the outcome.
+14:18So I figured out there are three points
+14:21I might be able to turn it into a different direction.
+14:25So the first one-- I'm not sure if you noticed it--
+14:28these pictures all kind of a bit psychedelic, colorful.
+14:31So I'm from Germany.
+14:34We are kind of very earnest people,
+14:35so I like it rather a bit toned down.
+14:38So very simple thing-- desaturated a bit.
+14:42And desaturation is super easy.
+14:44So all I needed was to add a single line of code, which is
+14:47the one you see at the bottom.
+14:48What you do is you take the average between the RGB values.
+14:51And then you can have a linear interpolation
+14:54between the gray-scale version and the color version.
+14:57And depending on how crazy you want it,
+15:00you pick a factor in the middle.
+15:02And so as an example here, on the left side
+15:05psychedelic Mario, on the right, the puppy face gray-scale one.
+15:12So the second thing-- that issue that you
+15:20don't know what you will get out,
+15:21or when you get something out, it
+15:23will be a selection of slug, puppy, or eye.
+15:27So can I get a little bit more control?
+15:30Well, in order to do that, we have
+15:33to have a look at how this thing works.
+15:36So this is the classic convolutional network, which
+15:41is the Google Net in this case.
+15:42That was also the architecture that
+15:44was used for the early Deep Dream experiments.
+15:47So what you do, you put something
+15:49in on the left-- an image-- and it
+15:51passes through all these convolutional layers,
+15:53and soft Max.
+15:55Well, we don't go into depth there.
+15:57In the end, you get out what the machine thinks-- a probability
+16:03for certain categories.
+16:05What Deep Dream does is, you put in an image at the beginning.
+16:08But then, instead of going all through all the network,
+16:11you stop at a certain layer.
+16:13And at that layer, there are certain neurons activated.
+16:17So depending on what the network thinks it sees there,
+16:21some neurons will get activated and others will not.
+16:25And what it does is then it emphasizes
+16:27those activations even more, and sends it back up the chain.
+16:31And then this will, in a way, kind of
+16:36emphasize all those elements.
+16:38Where it thought it has discovered, let's say, a cat.
+16:41Then it will improve the cattiness of that image.
+16:48If you look at this, what actually happens
+16:50inside this network-- and I'm coming from the kind of,
+16:53let's say, a pixel arts background,
+16:55or I'm doing lots of with bitmaps.
+16:57So I look at it this way.
+16:59Then it's actually bitmaps all the way down.
+17:02So in the top layers, you can still
+17:04see there is some convolutions going
+17:06on that reminds you of sharpening
+17:08filters or something.
+17:10The deeper you go down the net, actually, it
+17:13gets more and more abstract.
+17:14But for me, even those dots are still little bitmaps.
+17:18And then I can do stuff with them.
+17:20I can increase the brightness, reduce or enhance the contrast,
+17:25blur things.
+17:27Or what I also can do-- I can treat it
+17:30like a brain surgeon in a way.
+17:32Like I poke in, and say, OK, when I poke in here,
+17:35does the finger wiggle or the toe?
+17:38And what I can do then is, I can just
+17:41say, well, how about if I turn every neuron off
+17:45instead of, maybe, for example, the 10 most activated ones,
+17:49and send it back up?
+17:50The code to do that is, again, rather simple.
+17:52So again, each of these little bitmaps is-- well,
+17:56for me, it's a bitmap or it's a little array of numbers.
+17:59So what I can do for each of these cells,
+18:01I just sum up all the pixels in there.
+18:04Then I sort them by how much they summed up to.
+18:08And in the end, I just keep the top 10, for example-- or if I'm
+18:12just interested in a single category, the most activated
+18:15one-- and replace all the other values with 0,
+18:19and send it back up.
+18:20What I get then is something that looks like this.
+18:23So it's kind of just reducing everything
+18:26to a single category the network thinks to have seen.
+18:30And I like these, really, because they are, again,
+18:32totally out of this world.
+18:34Some remind me of organic patterns.
+18:37Sometimes you can see, OK, this might have come
+18:39from an eye detector or so.
+18:42But definitely, it doesn't contain any traces
+18:46of slugs or eyes again.
+18:50But of course, there's still this other issue.
+18:52And I call it the PuppyLeak, or rather, I kind of
+18:56reveal why are there so many puppies?
+19:00Like why does Deep Dream have such a love for puppies?
+19:05Well, the reason is that their network--
+19:08the original network-- that was used
+19:11for the first release of Deep Dream
+19:13was based on the ImageNet Large Scale Visual Recognition
+19:18Competition, which is kind of the Olympics of image
+19:21recognition.
+19:22And in 2014, what they did-- they added 150 new categories.
+19:27And it was all dog breeds.
+19:30So that old rule applies-- gerbil in, gerbil out.
+19:35So whatever you train it with, that's what you will get.
+19:38So then I thought, OK, maybe I just
+19:41have to train this network with something else.
+19:45But then kind of new to it, I heard these stories
+19:49that it takes four weeks on a super-powerful GPU
+19:52to train a network.
+19:53And I'm a poor artist.
+19:56I can't afford an NVIDIA rack with these things.
+20:00But then I came across this technique
+20:02which is really astonishing.
+20:03It's called fine tuning.
+20:05And what it does is, you can take
+20:07an already trained network, for example, the Google Net.
+20:11And all you have to do is to cut off the bottom layer.
+20:15And then you can retrain it with new material.
+20:19And what happens is, all the top layers
+20:21are pretty much the same, no matter what you train it with,
+20:24because they look for abstract elements like edges,
+20:27curvature, or things like that.
+20:29So that doesn't need to be retrained.
+20:31So doing that, you can take a trained network.
+20:35You feed in new images.
+20:36Instead of taking four weeks, you
+20:38can train a network overnight.
+20:40And the way I do it-- well, I tried it with I
+20:44called it MNIST with a twist.
+20:47I in my works with these archives,
+20:50I come across a lot of these decorative initials.
+20:53And I thought, is there a way I could actually
+20:57train it to recognize A, B, C that
+21:01come in all different kinds of shapes?
+21:03Well, I tried.
+21:05And I must admit, there is a manual process involved.
+21:08Because what I have to do is, the way I do it,
+21:13I really start folders on my hard drive,
+21:15and go manually, and drag and drop whatever I find in this.
+21:20Let's say, oh, another A. I drop in the A folder.
+21:23I don't have to do this with the thousands of images.
+21:26Actually, it turns out I can just
+21:27start with-- it's enough to take 50 for each category.
+21:31I'm pretty sure there are people who know much more than me
+21:34about machine learning.
+21:35They say, oh, my god, that will never work,
+21:37and it will totally overfit.
+21:38It doesn't matter.
+21:39Actually, it works.
+21:41So I start with just let's say 20 to 50 images per category,
+21:46and then train the network using the fine-tuning technique.
+21:50I let it kind of simmer for two hours,
+21:53so it gets a little bit accustomed to the data.
+21:56And then I use this to show me what
+21:59it thinks these letters are.
+22:01So I train it a bit.
+22:04I give it a bunch of random images.
+22:07And it says, I think it's an A. I say, no, it's not an A.
+22:09And then a B?
+22:10Oh, yes.
+22:11And actually, it gets better and better.
+22:14Because what I do is, whenever it finds something,
+22:16it gets added to my training set.
+22:18And I can repeat this process.
+22:21And in order to kind of help me with this process of saying,
+22:27yes/no, I realized that kind of left-swipe right-swipe
+22:32is a real popular way to decide if you are into a specimen
+22:36or not.
+22:36And it's actually a super-fast way.
+22:40So I can go back and forth, and in one hour
+22:43I think I can go through 1,000 images and say if it's correct
+22:49or not.
+22:50And as a result-- so for example here, this
+22:53is stuff where it has correctly recognized that it's an A.
+22:57And you can see, it's really surprising.
+23:01It comes in so many different shapes
+23:03that, well, it's just amazing how powerful
+23:07these networks are.
+23:08Then sometimes, it gives me something like this.
+23:12And I don't know.
+23:14It looks like a ruin to me.
+23:16So the machine said it's a B. And then I said, no, hmm.
+23:22So I actually went to the original scan in the book
+23:25to check it out.
+23:26And indeed, it is a B So it's really magic.
+23:30And of course, if everything you have is a hammer,
+23:32everything looks like a nail.
+23:34It start seeing letters in everything.
+23:36So it gives me these things.
+23:39But again, it's beautiful, so maybe something I
+23:42have not been looking for.
+23:44But of course, I was about Deep Dreaming.
+23:46So this is then what happens if I use this newly
+23:50trained network on material.
+23:53And you can definitely see it takes
+23:54an entirely different twist.
+23:56It suddenly has this typographic feel to it.
+23:59And another example-- not sure if you recognize the lady
+24:04on the left and the right.
+24:06But it's actually the Mona Lisa in,
+24:09let's say it has a linocut aspect to me.
+24:12But yes, there's no more puppies involved at all.
+24:16But OK, one more thing-- Deep Dream
+24:21had this great opportunity in the spring this year,
+24:25where the Grey Area Foundation located in San Francisco
+24:29was doing a charity auction to fund their projects.
+24:32And I was really honored to be invited to contribute
+24:36some artworks there.
+24:37So I kind of ate my own dog food and tried
+24:41to create something that is not obviously Deep Dream.
+24:44So I created this piece called "The Archimedes
+24:46Principle," which reminds me of a ball floating in water.
+24:51But the one thing I didn't mention yet is my residency.
+24:55And the reason is, it just started.
+24:57But I can tell you, I feel like a child in a candy store.
+25:01It's really amazing.
+25:02I have this huge amount of data to play with.
+25:05I have kind of metadata.
+25:08I have super-smart people-- much smarter
+25:10than me-- that I can ask extremely stupid questions.
+25:13And I've already started working,
+25:16but it's still something I want to fine-tune.
+25:19But I also had the privilege to see what Cyril was actually
+25:23doing there for a while.
+25:24And so, with no further ado, let's
+25:27get Cyril onstage so he can show you some awesome things.
+25:32Thank you.
+25:32[APPLAUSE]
+25:33CYRIL DIAGNE: Thank you, Mario.
+25:34Well, my name is Cyril Diagne.
+25:38And I'm a digital interaction artist.
+25:41So a question I get often is, what is a digital interaction
+25:45artist?
+25:46So it's actually very simple.
+25:48I try to create poetic moments for people
+25:51when they are interacting with digital systems.
+25:54And the process is also fairly simple.
+25:57It basically boils down to two steps.
+26:00One step is just plain, really-- just
+26:04like a kid getting my hands on some technology,
+26:07and playing without any goal, just
+26:08for the pleasure of learning new things and having fun.
+26:13And then sometimes, a poetic outcome appears.
+26:16And what that lets you do is, for example,
+26:19swing through the stars, or having your face covered
+26:23with some generative masks, or creating a video of people
+26:29dancing together, and so on, and so on,
+26:32and other things that I've been doing over the last years.
+26:35But you might be wondering, OK, what about machine learning?
+26:40It turns out one year ago, I didn't know anything
+26:43about machine learning.
+26:44It all started when Damien came to me.
+26:48He asked me, hi, Cyril, how are you?
+26:51I'm good, thanks.
+26:52How are you?
+26:52Not too bad.
+26:54And he asked me, what can you do with seven
+26:58million cultural artifacts?
+27:03I had to stop for a moment.
+27:05What do you mean seven million cultural artifacts?
+27:07What can I do?
+27:08He said, yeah, well, the Cultural Institute
+27:10has been working for several years
+27:12with thousands of partners.
+27:13We have this great database with amazing content.
+27:16Well, what can you do with it?
+27:18Well, I really had to stop, because those
+27:21are seven million opportunities to learn something new
+27:25about a culture, about some events--
+27:27really incredibly high-quality content.
+27:30So in order not to panic, I did what every coder
+27:33would do in this situation.
+27:35I [INAUDIBLE] all the assets and plotted to them in a sine wave.
+27:38Because then, I did not have to think about it anymore.
+27:42That was done.
+27:43And from there, well, I did the most obvious things.
+27:48I started to plot them by time, by color, by medium.
+27:52And, well, you find some interesting things
+27:54along the way.
+27:55But you can't help but think there's
+27:57got to be more-- all this great material, all
+28:00this great technology-- there's got to be
+28:02more that we can get out of it.
+28:06And so this is where machine learning came across.
+28:10Especially when you go to Google every day,
+28:14doesn't take too long until someone points you
+28:16to some amazing things.
+28:18And so one of the first experiments that we did
+28:23is using a popular technology now,
+28:25which is the machine learning annotation.
+28:27So it's the technology that allows
+28:28you to find the photos that you took in the forest
+28:32by typing "trees," the photos of my friend Tony, et cetera.
+28:37But what about the less expected labels-- the labels
+28:40you would not think in the first place to write down?
+28:42And what about less-expected images as well--
+28:46images that you would not expect to find anywhere there?
+28:49Well, we were curious as well.
+28:52So we sent it all over to the service.
+28:55And when we got the results back,
+28:58well, I fell off my chair.
+28:59I will show you.
+29:00Can we get onto the demo?
+29:04So basically, what we can see here
+29:06is that we got back around 4,000 different unique labels.
+29:12And we had to spend hours.
+29:14It was too amazing.
+29:16The things that were detected were really incredible.
+29:18Let's go over one example that you would expect to work,
+29:22because it does, but in quite an amazing way.
+29:24So let's look for horses.
+29:27There.
+29:30So as you can see, some beautiful artworks of horse.
+29:34Let's just take this one, for example-- beautiful painting
+29:36from Xia Xiaowan.
+29:39It's quite incredible, because I don't
+29:41know how he got his inspiration to picture horses
+29:46from this angle, because I didn't even
+29:48know it was possible, or how the machine managed
+29:51to detect that it was a horse.
+29:53But it does.
+29:55And, well, it's quite amazing.
+29:58And also, you get examples after examples of, well,
+30:03really incredible things like this,
+30:05for example, calligraphic artwork of, again, a horse.
+30:08But that really goes toward the abstract representation
+30:11from Yuan Xikun.
+30:13And again, a beautiful artwork, but it quite blows
+30:17my mind that now algorithms are capable of distinguishing
+30:21this much amount of details in these images.
+30:26So unfortunately, I can't go over all those examples.
+30:31But we are going to release this online soon.
+30:34So please take a day off to go through all of them,
+30:37because there are some pretty amazing examples.
+30:39And we said, OK, now that we realize it really works, what
+30:43about more tricky examples?
+30:45Like for example, let's put something
+30:46that leans toward emotion, like "calm," for example.
+30:50Let's have a look.
+30:52Calm-- there.
+30:56Yeah, there is this thing where we didn't know what to expect.
+30:59When you click on the label and when you look at the content,
+31:02indeed, yes, I see.
+31:04I understand your reference, computer.
+31:06These are indeed calm sceneries, beautiful landscapes-- yeah,
+31:11it's peaceful.
+31:13So as we went over and over, we came
+31:17across also labels that we would have not thought to write down.
+31:20Like for example, one that I quite
+31:23like-- I didn't know it was a thing--
+31:24but we found this "lady in waiting" collection,
+31:28automatically created, and sent back by the algorithms.
+31:32But look at this beautiful collection
+31:35of incredible artworks from various centuries of,
+31:40I don't know, maybe-- I guess it was
+31:41a thing-- "Lady in Waiting."
+31:48Oh, well, apart from that one, maybe.
+31:54And then maybe one last example-- this one I really
+32:00fell off my chair.
+32:04I had no idea what to expect.
+32:06I was, like, that must be some glitch.
+32:10But then when it appeared, well, it just makes sense.
+32:14Yeah, I mean-- that's right.
+32:22So yes we'll release this online soon.
+32:26We have to polish a few things first.
+32:28But what you can see is before the neural net is
+32:33able to label all these images, first
+32:37he is representing all the images in highly dimensional
+32:44world, let's say.
+32:45But it really qualifies as the world.
+32:47Basically, the neural net, to be able to apply those labels,
+32:50he positions every assets at a particular position
+32:54in this world.
+32:55Well, I don't know about you, but I want to visit that world.
+32:59What does it look like?
+33:01Is there an island of the Impressionists with blue hats,
+33:06or the highway of Roman statues?
+33:09I don't know, but what I suggest is you hop on with me,
+33:12and we just have a quick tour.
+33:14I will give you a quick tour.
+33:16OK, so let's start from these two assets here.
+33:20Well, they seem to have in common
+33:22that they are a landscape.
+33:24But let's take a step back.
+33:27We can see other artworks appearing with, well,
+33:31it looks like some series of landscapes-- more landscapes.
+33:36But if you look around, then we can see
+33:39that we're actually surrounded.
+33:41We literally woke up in this, I don't know, the Island of Art.
+33:46And well, let's have a tour, actually.
+33:51So here we can see a scene with animals, I guess.
+34:01As we continue, I think it's this direction.
+34:05So let's give it a little while for it to load.
+34:07People start to appear in the picture,
+34:10along with those animals.
+34:13And if we step back even more, actually,
+34:18let me take you to one of my favorite spots
+34:20directly-- this one.
+34:24I call it "The Shore of Portraits."
+34:26Look at this.
+34:30Let's give it a little while to load.
+34:37And so this-- sorry, I'm going really quick,
+34:40because we have a lot of things that I want to show.
+34:42But this is a TSNE Map.
+34:46So TSNE stands for T-distributed Stochastic Neighbor Editing,
+34:51which basically thanks all those 128 dimensions
+34:55and flattens it to just two dimensions,
+34:58so that you can plot them, and make it interactive, and easier
+35:03to travel across.
+35:05So here is a very simplistic diagram
+35:08that shows how you can create the map.
+35:10So basically, we take the image.
+35:13We feed it into the neural net which
+35:14extracts the raw features, which is a 128 dimensional vector.
+35:20Then in two steps, we reduce those dimensions to two.
+35:24And then it becomes-- you choose the way you want to plug them.
+35:29But this you can do now with eight lines of Python.
+35:34So it's not something that is reserved
+35:37for scientists or researchers.
+35:40Thanks to some amazing open source libraries like sklearn,
+35:43it is something you can do with eight lines of Python.
+35:45You just load the CSV of your raw features.
+35:50Well, I won't go over all those lines,
+35:51but you do a truncated SVD, which is the first [INAUDIBLE]
+35:55that reduces to 50 dimensions.
+35:57And then the TSNE is able to create this nice map
+36:02of two-dimensional vectors.
+36:05And then, as we saw the "Shore of Portraits,"
+36:10we got an idea, which led to what
+36:14we call the "Portrait Matcher."
+36:16So basically, the Cultural Institute--
+36:19we detected in the Art Project Channel about 40,000 faces.
+36:24So the question came quite naturally--
+36:28what if you could browse this database with your own face?
+36:33And it has to be real time, otherwise it did not happen.
+36:36So can we switch back to the demo?
+36:40All right, let's try that.
+36:41Let's see if it works.
+36:45All right, so let's see.
+36:53Oh, wow, OK.
+36:54I think we might-- OK, so we still
+37:01have to polish this one a little bit.
+37:06but if you come to our lab in Paris,
+37:08we have a much refined setup, which works much better.
+37:11But anyway, let's move on.
+37:15All right, thank you.
+37:16[APPLAUSE]
+37:19OK, can we switch back to the slides?
+37:24All right, but one good thing is that this experiment led us
+37:27to another iteration.
+37:30It came from another popular thing that
+37:34happens is when you're in front of a painting,
+37:36and you see someone drawn, and you feel like, oh, I
+37:39feel like I know this person.
+37:41Or oh, that definitely looks like my neighbor, Tony.
+37:45And actually, as it turns out, there
+37:48is this great model that's been done by some researchers
+37:51at Google which is called FaceNet.
+37:55And this model is able to achieve
+37:5899.63% accuracy on the label face
+38:04in the wild, which is the academic de facto
+38:07for this type of research.
+38:10So basically this neural net embeds in an Euclidean space
+38:16faces that are from the same identity
+38:19closer together than faces with dissimilar identities.
+38:23So basically, same people are closer in this space
+38:26than different people.
+38:28And what it sends you back, basically,
+38:31is, again, 128 dimensional vector
+38:36that represents the embedding.
+38:38And so we had to give it a try.
+38:41So who knows these guys?
+38:46OK, they're very popular in Europe, too.
+38:48So we took them as a starting point.
+38:52Let's try to find.
+38:53Let's see how well this model performs.
+38:55But let's not include in the mix other pictures of them,
+38:59because I'm sure it would work, so that would be boring.
+39:01What if, instead, we forced the system
+39:04to send us only pictures that are paintings?
+39:07Well, again, I can tell you when I saw the result,
+39:11I fell off my chair.
+39:12And yes, I did spend a lot of time on the ground
+39:14during this residency.
+39:16OK, I'm really excited to press this next button.
+39:22All right, this is what we got back.
+39:26I mean, Jared in the middle-- even though there
+39:30is a huge-- I mean, there is a gender mismatch-- that
+39:33could be his sister, right?
+39:38Or even Richard Hendricks, just on the right of him, like,
+39:41it even got the curliness of the hair.
+39:44It is just amazing.
+39:45So of course, you can imagine from there
+39:47how many tries we did.
+39:50Everyone wants to find his doppelganger in the database.
+39:55And here, who would have known that Richard Hendricks had
+39:58in half-naked man painted at the Tate Britain right now?
+40:03Let's take these guys, for example--
+40:05some of my personal heroes.
+40:07Let's see what we get.
+40:09And there, again-- even though this beautiful artwork
+40:13from Shepard Fairey for Obama campaign in 2008
+40:17is highly stylized with only four colors,
+40:20the algorithm still managed to find the matching.
+40:23And yes, that is quite amazing.
+40:27It would have not been fair not to try it with ourselves.
+40:31So we gave it a try here at I/O. And sorry, Mario,
+40:35but-- [LAUGHTER] the blue suits you so well.
+40:45So this is really fun.
+40:47And thanks again, for Damien and everyone
+40:53at the Cultural Institute for offering us
+40:56this really great opportunity.
+40:57And I will hand it over to you again.
+40:59So thank you very much.
+41:01[APPLAUSE]
+41:09DAMIEN HENRY: Thank you, Cyril.
+41:11Thank you, Mario.
+41:13I'm very happy to work with these guys.
+41:15And I'm very lucky, I guess.
+41:17So what's next?
+41:19So if you want to stay in touch with us,
+41:21please download our app.
+41:23It's a way to keep a link with you.
+41:26And our goal is to inspire you to try machine learning, too.
+41:31So if you want to give it a try, I recommend TensorFlow.
+41:35It's an open-source framework, easy to start with.
+41:39As a tutorial, the one done by Mr. Karpathy
+41:43is really, really good.
+41:45It really helps me to understand what's
+41:46going on with machine learning.
+41:49And the Cultural Institute is not the only team within Google
+41:52that is really passionate about machine learning.
+41:54So for instance, there is the MEI Initiative.
+41:58And this link is really good reading.
+42:03So I encourage you to try it.
+42:05And the last one is about the team,
+42:06named Magenta, completely dedicated to generate art
+42:11using machine learning.
+42:13So thanks, you, thanks everyone.
+42:16and that's it.
+42:18[APPLAUSE]
+42:22[MUSIC PLAYING]
+
+Published on May 20, 2016
+The recent progress of machine learning is impressive, and the applications seem endless. Neural networks are incredible tools allowing us not just to analyze but also manipulate and generate images, movies and music.
+
+Over the last 18 months, the Lab at the Cultural Institute has invited artists and creative technologists to explore ways to apply machine learning to culture and the arts. We'll present some of our results with some onstage technical demos and a few special guests.
+
+See all the talks from Google I/O 2016 here: https://goo.gl/olw6kV
+Watch more Android talks at I/O 2016 here: https://goo.gl/Uv3jls
+Watch more Chrome talks at I/O 2016 here: https://goo.gl/JoMLpB
+Watch more Firebase talks at I/O 2016 here: https://goo.gl/JTH9Fr 
+Subscribe to the Google Developers Channel: http://goo.gl/mQyv5L 
+
+#io16 #GoogleIO #GoogleIO2016
