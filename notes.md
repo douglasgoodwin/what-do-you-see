@@ -9,13 +9,16 @@ geenrate imagery by one of three approaches.
 
 ## questions
 1. would greyscale images provide more NSFWness?
-2. where would we find a useful cloud library?
+2. where would we find a useful cloud library? See below.
 
 
 ## links
  - [Facial Recognition Software Makes Art from Random Noise](http://www.smithsonianmag.com/smart-news/facial-recognition-software-makes-art-from-random-noise-15280755/)
  - [Genetic Programming: Evolution of Mona Lisa](https://rogerjohansson.blog/2008/12/07/genetic-programming-evolution-of-mona-lisa/)
-
+ - [Deep learning datasets](http://deeplearning.net/datasets/)
+ - [Cloud Atlas: world meteorological Organization](https://www.wmocloudatlas.org/)
+ - [Imagenet](http://image-net.org/search?q=cloud)
+ 
 
 ## example images
 
