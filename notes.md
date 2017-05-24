@@ -4,6 +4,7 @@ geenrate imagery by one of three approaches.
 1. generate sequences synthetic clouds and submit them to an AI that determines if the images are SFW. Collect the images that will not pass for safe
 2. start a database of cloud images. search through frames of pornography for areas that may be classified as cloud. Replace the source images with clouds. 
 3. find the "skies" in databases of pornography. use a computer to determine if the image contains sky. 
+4. is this working?
 
 
 ## questions
