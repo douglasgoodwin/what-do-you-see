@@ -2,9 +2,24 @@
 generate imagery for a short video by one of three approaches.
 
 1. generate sequences of synthetic clouds (by conditional adversarial networks?) and submit them to an AI that determines if the images are SFW. Collect the images that will not pass for safe.
-2. start a database of cloud images. search through frames of pornography for areas that may be classified as cloud. Replace the source images with clouds. 
-3. find the "skies" in databases of pornography. use a computer to determine if the image contains sky. 
-4. is this working?
+2. start a database of cloud images. search through frames of pornography for areas that may be classified as cloud. Replace the source images with clouds.
+3. find the "skies" in databases of pornography. use a computer to determine if the image contains sky.
+
+## things to try
+gather images of clouds, add to local machine learning database.
+
+all the images in the frame are made synthetically or generatively. for example, you might make the decor out of images of the bestselling armchairs. Or the people. Like a synthetic Komar and Melamid's [Most Wanted and Least Wanted paintings](http://www.diaart.org/program/exhibitions-projects/komar-melamid-the-most-wanted-paintings-web-project). But it's also how House of Cards was structured. People like Kevin Spacey, political intrigue, murder mysteries.
+
+destory the personality / diversity of local coffeeshops. West Elm and AirBnB culture. Everything will be comfortable and look familiar.
+
+shadows interacting with composited environments where the images are made from synethesis.
+
+But start with just the clouds. Let them develop into imagery that's NSFW.
+
+everything is produced by morphing and averaging.
+
+AI creating narratives.
+
 
 ## useful software
 
@@ -29,41 +44,33 @@ generate imagery for a short video by one of three approaches.
 5. [Sampling Generative Networks](https://arxiv.org/abs/1609.04468), Tom White
 6. [Conditional generative adversarial nets for convolutional face generation](http://www.foldl.me/uploads/papers/tr-cgans.pdf), Jon Gauthier
 
-![](https://www.evernote.com/l/ADPBe2yIHIRPfZOTr11mwTlIfKeDnJKh91oB/image.png)
+![fur-lined teacup](https://www.evernote.com/l/ADPBe2yIHIRPfZOTr11mwTlIfKeDnJKh91oB/image.png =250x)
 
-## things to try
-gather images of clouds, add to local deepdream database. 
+## institutions
 
-all the images in the frame are made synthetically or generatively. for example, you might make the decor out of images of the bestselling armchairs. Or the people. Like a synthetic komar and melamid. But it's also how House of Cards was structured. People like Kevin Spacey, political intrigue, murder mysteries. 
+1. [Google arts & culture](https://www.google.com/culturalinstitute/beta/)
 
-destory the personality / diversity of local coffeeshops. West Elm and AirBnB culture. Everything will be comfortable and look familiar. 
+## artists working in this area
 
-shadows interacting with composited environments where the images are made from synethesis. 
+### Mario Klingemann [[tumblr]](http://mario-klingemann.tumblr.com) [[twitter]](https://twitter.com/quasimondo), code artist
 
-But start with just the clouds. Let them develop into imagery that's NSFW. 
+look at this video and document his approach. How does he "tune" his database?
+[youtube: Machine learning & art - Google I/O 2016](https://youtu.be/egk683bKJYU?t=20m5s)
 
-everything is produced by morphing and averaging. 
 
-AI creating narratives. 
+> 20:05 It's called fine tuning. And what it does is, you can take an already trained network, for example, the Google Net. And all you have to do is to cut off the bottom layer. And then you can retrain it with new material. And what happens is, all the top layers are pretty much the same, no matter what you train it with, because they look for abstract elements like edges, curvature, or things like that. So that doesn't need to be retrained. So doing that, you can take a trained network. You feed in new images. Instead of taking four weeks, you can train a network overnight. And the way I do it-- well, I tried it with I called it [MNIST](https://www.tensorflow.org/versions/r0.10/tutorials/mnist/beginners/) with a twist.
 
-## artists working in this area?
+Mario is doing other work with morphing and averaging.
 
 ### [Cyril Diagne](https://twitter.com/kikko_fr), digital interaction artist
 
-### [Mario Klingemann](http://mario-klingemann.tumblr.com), code artist
-[+twitter](https://twitter.com/quasimondo)
+What can you do with 7 million digital artifacts?
 
-look at this video and document his approach. How does he "tune" his database?
-https://youtu.be/egk683bKJYU?t=20m5s
+![](https://icdn2.digitaltrends.com/image/sin-wave-machine-learning-720x480-c.png)
 
-20:05
 
-> It's called fine tuning. And what it does is, you can take an already trained network, for example, the Google Net. And all you have to do is to cut off the bottom layer. And then you can retrain it with new material. And what happens is, all the top layers are pretty much the same, no matter what you train it with, because they look for abstract elements like edges, curvature, or things like that. So that doesn't need to be retrained. So doing that, you can take a trained network. You feed in new images. Instead of taking four weeks, you can train a network overnight. And the way I do it-- well, I tried it with I called it MNIST with a twist.
-
-Mario is doing other work with morphing and averaging. 
-
-### [Oliver Husain](http://www.husain.de). 
-Look at the edges, see the fragility of construction. 
+### [Oliver Husain](http://www.husain.de).
+Look at the edges, see the fragility of construction.
 
 
 ### [Kurtis Hough](http://khstudios.com)
@@ -78,7 +85,7 @@ A sculptural and painterly look at the geometry of geology.
 ## questions
 1. would greyscale images provide more NSFWness?
 2. where would we find a useful cloud library? See below.
-3. what about [pareidolia](http://www.bbc.com/news/magazine-22686500)? 
+3. what about [pareidolia](http://www.bbc.com/news/magazine-22686500)?
 
 
 ## links
@@ -87,7 +94,7 @@ A sculptural and painterly look at the geometry of geology.
  - [Deep learning datasets](http://deeplearning.net/datasets/)
  - [Cloud Atlas: world meteorological Organization](https://www.wmocloudatlas.org/)
  - [Imagenet](http://image-net.org/search?q=cloud)
- 
+
 
 ## example images
 
