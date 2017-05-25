@@ -25,12 +25,13 @@ AI creating narratives.
 
 1. [Image-to-Image Translation with Conditional Adversarial Nets](https://phillipi.github.io/pix2pix/)
 2. [Tensorflow](https://www.tensorflow.org)
+2. [TensorFlow CNN for fast style transfer](https://github.com/lengstrom/fast-style-transfer)
+3. [Neural style in TensorFlow](https://github.com/anishathalye/neural-style)
 3. American Fuzzy Lop: [Pulling JPEGs out of thin air](https://lcamtuf.blogspot.com/2014/11/pulling-jpegs-out-of-thin-air.html?m=1)
-4. Google research: [Teaching achines to draw](https://research.googleblog.com/2017/04/teaching-machines-to-draw.html?m=1), [Inceptionism](https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html)
+4. Google research: [Teaching Machines to draw](https://research.googleblog.com/2017/04/teaching-machines-to-draw.html?m=1), [Inceptionism](https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html)
 5. [Nudity detection in Python](https://github.com/hhatto/nude.py)
 6. [AI Turned Bob Ross into a Terrifying Psychedelic Nightmare](https://creators.vice.com/en_us/article/bob-ross-alexander-reben-neural-network-nightmare)
 7. [Pikazo App Lets You Paint Neural Network Art Masterpieces](https://creators.vice.com/en_us/article/pikazo-neural-network-art-app)
-8. [Neural style in TensorFlow](https://github.com/anishathalye/neural-style)
 9. [Magenta: Music and Art Generation with Machine Intelligence](https://github.com/tensorflow/magenta)
 10. [Genetic Programming: Mona Lisa FAQ](https://rogerjohansson.blog/2008/12/09/genetic-programming-mona-lisa-faq/)
 11. [plat (v): plan out or make a map of](https://github.com/dribnet/plat)
@@ -46,6 +47,12 @@ AI creating narratives.
 7. [Machine Learning is Fun!](https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721), Adam Geitgey
 8. [Convolutional neural networks for artistic style transfer](https://harishnarayanan.org/writing/artistic-style-transfer/), Harish Narayanan
 9. [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu), Stanford U.
+10. Publications by [Leon Gatys](http://bethgelab.org/publications/leon+gatys/)
+11. [Image Style Transfer Using Convolutional Neural Networks](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf), Leon A. Gatys et alia
+
+## techniques
+
+1. [How to implement the Style Transfer algorithm in TensorFlow for combining the style and content of two images](https://www.youtube.com/watch?v=LoePx3QC5Js)
 
 ![fur-lined teacup](https://www.evernote.com/l/ADPBe2yIHIRPfZOTr11mwTlIfKeDnJKh91oB/image.png =250x)
 
