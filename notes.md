@@ -5,6 +5,10 @@ generate imagery for a short video by one of three approaches.
 2. start a database of cloud images. search through frames of pornography for areas that may be classified as cloud. Replace the source images with clouds.
 3. find the "skies" in databases of pornography. use a computer to determine if the image contains sky.
 
+## why do this?
+
+> Famous artists are typically renowned for a particular artistic style, which takes years to develop. Even once perfected, a single piece of art can take days or even months to create. This motivates us to explore efficient computational strategies for creating artistic images.
+
 ## things to try
 gather images of clouds, add to local machine learning database.
 
@@ -18,7 +22,13 @@ But start with just the clouds. Let them develop into imagery that's NSFW.
 
 everything is produced by morphing and averaging.
 
-AI creating narratives.
+Could AI create narratives? What kind of narrative would they create?
+
+What happens when  algorithms start changing taste or aesthetics? The ice cream is made for the Instagram photo. The look of the Instagram changes the appearance and context of the ice cream. It’s designed to be an image consumed on social media. This becomes what a good ice\ cream looks like — and tastes like.
+
+When does the world of the web start coming off the screen. When does it change the way that the coffeeshop is designed?
+
+How does pornography set up expectations about what sexual experiences will be.
 
 
 ## useful software
