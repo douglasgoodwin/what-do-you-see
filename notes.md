@@ -54,7 +54,7 @@ AI creating narratives.
 
 1. [How to implement the Style Transfer algorithm in TensorFlow for combining the style and content of two images](https://www.youtube.com/watch?v=LoePx3QC5Js)
 
-![fur-lined teacup](https://www.evernote.com/l/ADPBe2yIHIRPfZOTr11mwTlIfKeDnJKh91oB/image.png =250x)
+![fur-lined teacup](https://www.evernote.com/l/ADPBe2yIHIRPfZOTr11mwTlIfKeDnJKh91oB/image.png)
 
 ## institutions
 
