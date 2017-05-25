@@ -43,6 +43,9 @@ AI creating narratives.
 4. [awesome General Adversarial Networks](https://github.com/nightrome/really-awesome-gan)
 5. [Sampling Generative Networks](https://arxiv.org/abs/1609.04468), Tom White
 6. [Conditional generative adversarial nets for convolutional face generation](http://www.foldl.me/uploads/papers/tr-cgans.pdf), Jon Gauthier
+7. [Machine Learning is Fun!](https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721), Adam Geitgey
+8. [Convolutional neural networks for artistic style transfer](https://harishnarayanan.org/writing/artistic-style-transfer/), Harish Narayanan
+9. [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu), Stanford U.
 
 ![fur-lined teacup](https://www.evernote.com/l/ADPBe2yIHIRPfZOTr11mwTlIfKeDnJKh91oB/image.png =250x)
 
