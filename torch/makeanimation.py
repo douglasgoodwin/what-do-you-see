@@ -1,4 +1,4 @@
-from os import listdir,getcwd,makedirs,path,walk
+from os import listdir,getcwd,makedirs,path,walk,system
 from sys import argv
 import datetime
 import subprocess
@@ -42,11 +42,11 @@ def makemyscript(contentimg,styleimg,outimg,gpu):
         -content_image %s \
         -style_image %s \
         -output_image %s \
-        -model_file /Users/dgoodwin/neural-style/models/VGG_ILSVRC_19_layers.caffemodel \
+        -model_file /home/dgoodwin/neural-style/models/VGG_ILSVRC_19_layers.caffemodel \
         -print_iter 4 \
-        -backend cudnn -cudnn_autotune \
-        -gpu %s
-        -image_size 1000""" %(contentimg,styleimg,outimg,gpu)
+        -proto_file /home/dgoodwin/neural-style/models/train_val.prototxt -gpu 0  \
+        -seed 123 -content_weight 10 -style_weight 1000 \
+        -image_size 720""" %(contentimg,styleimg,outimg)
     return str(thescript)
 
   # do you have a GPU handy?
@@ -68,7 +68,7 @@ def makestyle(contentdir,styleimg,outdir,gpu):
       if DEBUG:
           subprocess.call(['echo',dscript])
       else:
-          subprocess.call([dscript])
+          system(dscript)
 
 def getimagefiles(adir):
     mycontentimgs = []
