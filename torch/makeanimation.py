@@ -58,7 +58,7 @@ def makemyscript(contentimg,styleimg,outimg,gpu,backend,width):
         -content_image %s \
         -style_image %s \
         -output_image %s \
-        -model_file /Users/dgoodwin/neural-style/models/VGG_ILSVRC_19_layers.caffemodel \
+        -model_file ./models/VGG_ILSVRC_19_layers.caffemodel \
         -print_iter 4 \
         -backend %s \
         -gpu %s \
