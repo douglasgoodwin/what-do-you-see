@@ -1,0 +1,336 @@
+    1  sudo su
+    2  nvcc --version
+    3  ls /usr/local/bin
+    4  ls
+    5  sudo su
+    6  cd
+    7  mkdir Notebooks
+    8  cd Notebooks/
+    9  locate deepdream
+   10  jupytern notebook .
+   11  jupyter notebook .
+   12  sudo su
+   13  git clone https://github.com/anishathalye/neural-style.git
+   14  sudo aptitude install git
+   15  git clone https://github.com/anishathalye/neural-style.git
+   16  cd neural-style/
+   17  ls
+   18  python3 neural_style.py --content cumulus-and-altocumulus.jpg Nude-1925-40N.jpg --output cloud-nude.png
+   19  python3 neural_style.py --content cumulus-and-altocumulus.jpg --styles Nude-1925-40N.jpg --output cloud-nude.png
+   20  sudo pip3 install pillow
+   21  mkdir checkpoint
+   22  python3 neural_style.py --content cumulus-and-altocumulus.jpg --styles Nude-1925-40N.jpg --output cloud-nude.png --checkpoint-output checkpoint/
+   23  python3 neural_style.py --content cumulus-and-altocumulus.jpg --styles Nude-1925-40N.jpg --output cloud-nude.png --checkpoint-output checkpoint/foo%s.jpg
+   24  head imagenet-vgg-verydeep-19.mat 
+   25  head imagenet-vgg-verydeep-16.mat 
+   26  ls
+   27  python3 neural_style.py --content cumulus-and-altocumulus.jpg --styles Nude-1925-40N.jpg --output cloud-nude.png --checkpoint-output checkpoint/foo%s.jpg
+   28  head imagenet-vgg-verydeep-19.mat 
+   29  md5 imagenet-vgg-verydeep-19.mat 
+   30  sudo aptitude install md5
+   31  md5sum imagenet-vgg-verydeep-19.mat 
+   32  python3
+   33  ls *19*
+   34  ls *19*met
+   35  ls *19*mat
+   36  md5sum imagenet-vgg-verydeep-19.mat 
+   37  md5sum ../Downloads/imagenet-vgg-verydeep-19.mat 
+   38  mv ../Downloads/imagenet-vgg-verydeep-19.mat ./
+   39  md5sum imagenet-vgg-verydeep-19.mat 
+   40  python3 neural_style.py --content cumulus-and-altocumulus.jpg --styles Nude-1925-40N.jpg --output cloud-nude.png --checkpoint-output checkpoint/foo%s.jpg
+   41  python3 neural_style.py --content cumulus-and-altocumulus.jpg --styles Nude-1925-40N.jpg --output cloud-nude.png 
+   42  python3 neural_style.py --content cumulus-and-altocumulus.jpg --styles weston_legs.jpg --output cloud-nude.jpg --checkpoint-output checkpoint/foo%s.jpg
+   43  python3 neural_style.py
+   44  python3 neural_style.py --content cumulus-and-altocumulus.jpg --styles weston_legs.jpg --output cloud-nude.jpg --checkpoint-output checkpoint/foo%s.jpg --print-iterations 4 --checkpoint-iterations 4
+   45  python3 neural_style.py
+   46  python3 neural_style.py --content cumulus-and-altocumulus.jpg --styles weston_legs.jpg --output cloud-nude.jpg --checkpoint-output checkpoint/foo%s.jpg --width 512
+   47  python3 neural_style.py --content cumulus-and-altocumulus.jpg --styles weston_legs.jpg --output cloud-nude_1028.jpg --checkpoint-output checkpoint/foo%s.jpg --width 1028
+   48  python3 neural_style.py
+   49  python3 neural_style.py --content cumulus-and-altocumulus.jpg --styles weston_legs.jpg --output cloud-nude_1028.jpg --checkpoint-output checkpoint/foo%s.jpg --width 1028 --print-iterations 10
+   50  python3 neural_style.py --content weston_legs.jpg --styles cabbageleaf.jpg --output legs-cabbageleaf_512.jpg --checkpoint-output checkpoint/foo%s.jpg --width 512
+   51  history | grep lib
+   52  source ~/.bashrc 
+   53  python3 neural_style.py --content weston_legs.jpg --styles cabbageleaf.jpg --output legs-cabbageleaf_512.jpg --checkpoint-output checkpoint/foo%s.jpg --width 512
+   54  locaet libcublas
+   55  locate libcublas
+   56  cat ~dgoodwin/.bashrc 
+   57  cat ~dgoodwin/.profile 
+   58  export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+   59  export PATH=$PATH:/usr/local/cuda/bin
+   60  python3 neural_style.py --content weston_legs.jpg --styles cabbageleaf.jpg --output legs-cabbageleaf_512.jpg --checkpoint-output checkpoint/foo%s.jpg --width 512
+   61  python3 neural_style.py --content weston_legs.jpg --styles cumulus-and-altocumulus.jpg --output legs-cumulus_512.jpg  --width 512
+   62  python3 neural_style.py --content weston_legs.jpg --styles shell.jpg --output legs-shell_512.jpg  --width 512
+   63  cd neural-style/
+   64  atom .
+   65  cd ..
+   66  cd what-do-you-see/
+   67  git status
+   68  git add imgs/*
+   69  git commit -m "new tests with Torch"
+   70  git pull ; git push
+   71  git config --global push.default simple
+   72  git pull ; git push
+   73  git add torch/*
+   74  git add torch
+   75  git commit -m "add Torch script"
+   76  git push
+   77  atom .
+   78  git remote set-url origin git://douglasgoodwin/what-do-you-see.git
+   79  git push
+   80  git remote set-url origin git://githib.com/douglasgoodwin/what-do-you-see.git
+   81  git push
+   82  git remote set-url origin git://github.com/douglasgoodwin/what-do-you-see.git
+   83  git push
+   84  git remote set-url origin git@github.com:douglasgoodwin/what-do-you-see.git
+   85  git push
+   86  git add handmovie/*
+   87  git add handmovie
+   88  git commit -m "adding film stills"
+   89  git push
+   90  cd torch/
+   91  ls
+   92  bash install-deps
+   93  ./install.sh 
+   94  cat ~dgoodwin/.bashrc 
+   95  vi ~dgoodwin/.bashrc 
+   96  source ~dgoodwin/.bashrc 
+   97  th
+   98  cd ~/
+   99  ls
+  100  mv neural-style neural-style_tensorflow
+  101  git clone https://github.com/jcjohnson/neural-style.git
+  102  cd neural-style
+  103  sh models/download_models.sh
+  104  th neural_style.lua -gpu -1 -print_iter 1
+  105  nvidia-smi
+  106  luarocks install cutorch
+  107  luarocks install cunn
+  108  th -e "require 'cutorch'; require 'cunn'; print(cutorch)"
+  109  luarocks install cudnn
+  110  th neural_style.lua -gpu 0 -backend cudnn
+  111  ls
+  112  th neural_style.lua -style_image cumulus-and-altocumulus.jpg -content-image Nude-1925-40N.jpg -output_image cumulus-nude1925.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -backend clnn -num_iterations 1000 -seed 123 -content_layers relu0,relu3,relu7,relu12 -style_layers relu0,relu3,relu7,relu12 -content_weight 10 -style_weight 1000 -image_size 512 -optimizer adam
+  113  th neural_style.lua -style_image cumulus-and-altocumulus.jpg -content-image Nude-1925-40N.jpg -output_image cumulus-nude1925.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -backend clnn 
+  114  th neural_style.lua -style_image cumulus-and-altocumulus.jpg -content-image Nude-1925-40N.jpg -output_image cumulus-nude1925.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel
+  115  th neural_style.lua -style_image cumulus-and-altocumulus.jpg -content-image Nude-1925-40N.jpg -output_image cumulus-nude1925.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4
+  116  th neural_style.lua -style_image cumulus-and-altocumulus.jpg -content_image Nude-1925-40N.jpg -output_image cumulus-nude1925.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4
+  117  th neural_style.lua -style_image cumulus-and-altocumulus.jpg -content_image Nude-1936-227N.jpg -output_image cumulus-nude1936.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4
+  118  th neural_style.lua -style_image cabbageleaf.jpg -content_image Nude-1936-227N.jpg -output_image cabbage-nude1925.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4
+  119  th neural_style.lua -style_image Nude-1936-227N.jpg -content_image cabbageleaf.jpg -output_image cabbage.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4
+  120  th neural_style.lua -style_image cumulus-and-altocumulus.jpg -content-image cabbageleaf.jpg -output_image cumulus-cabbageleaf.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -backend clnn -num_iterations 1000 -seed 123 -content_layers relu0,relu3,relu7,relu12 -style_layers relu0,relu3,relu7,relu12 -content_weight 10 -style_weight 1000 -image_size 512 -optimizer adam
+  121  th neural_style.lua -style_image cabbageleaf.jpg -content_image Nude-1925-40N.jpg -output_image cabbage-nude1925_.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4
+  122  mkdir results
+  123  th neural_style.lua -style_image _cloud-single.jpg -content_image Nude-1925-40N.jpg -output_image cloud-nude1925_.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend cudnn -cudnn_autotune 
+  124  th neural_style.lua -style_image _cloud-single.jpg -content_image Nude-1925-40N.jpg -output_image cloud-nude1925_.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend cudnn
+  125  th neural_style.lua -style_image _cloud-single.jpg -content_image _weston-nude-partial.jpg -output_image cloud-nude1925_.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend cudnn -cudnn_autotune 
+  126  th neural_style.lua -style_image _cloud-single.jpg -content_image _weston-nude-wide.jpg -output_image cloud-nude1925_.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend cudnn -cudnn_autotune 
+  127  th neural_style.lua -content_image _cloud-single.jpg -style_image _weston-nude-wide.jpg -output_image Ccloud-single_Snude-wide.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend cudnn -cudnn_autotune 
+  128  th neural_style.lua -content_image _cloud-single.jpg -style_image _weston-nude-wide.jpg -output_image Ccloud-single_Snude-wide_clnn.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend clnn
+  129  th neural_style.lua -content_image _cloud-single.jpg -style_image _weston-nude-wide.jpg -output_image Ccloud-single_Snude-wide_nn.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend nn
+  130  th neural_style.lua -content_image _cloud-single.jpg -style_image _weston-nude-wide.jpg -output_image Ccloud-single_Snude-wide_cudnn-adam.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend cudnn -cudnn_autotune -optimizer adam
+  131  th neural_style.lua -content_image _cloud-single.jpg -style_image _weston-nude-partial.jpg -output_image Ccloud-single_Snude-partial_cudnn.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend cudnn -cudnn_autotune
+  132  th neural_style.lua -content_image _cloud-single.jpg -style_image _weston-nude-partial.jpg -output_image Ccloud-single_Snude-partial_cudnn_1000x.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend cudnn -cudnn_autotune -image_size 1000
+  133  th neural_style.lua -style_image _cloud-single.jpg -content_image _weston-nude-partial.jpg -output_image Scloud-single_Cnude-partial_cudnn_1000x.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend cudnn -cudnn_autotune -image_size 1000
+  134  th neural_style.lua -style_image _smoke-32.jpg -content_image _weston-nude-partial.jpg -output_image Ssmoke_Cnude-partial_cudnn_1000x.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend cudnn -cudnn_autotune -image_size 1000
+  135  th neural_style.lua -content_image _smoke-32.jpg -style_image _weston-nude-partial.jpg -output_image Csmoke_Snude-partial_cudnn_1000x.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend cudnn -cudnn_autotune -image_size 1000
+  136  cd
+  137  git clone https://github.com/douglasgoodwin/what-do-you-see.git
+  138  cd what-do-you-see/
+  139  ls
+  140  atom .
+  141  git status
+  142  git add google-io-transcript.txt 
+  143  git commit -m "clean up the timecode"
+  144  git config --global user.email "dgoodwin@gmail.com"
+  145  git config --global user.name "douglasgoodwin"
+  146  git commit -m "clean up the timecode"
+  147  git push
+  148  cd
+  149  cd .ssh
+  150  ssh-keygen -t rsa
+  151  cd .ssh
+  152  cat *pub
+  153  cd 
+  154  xs what-do-you-see/
+  155  cd what-do-you-see/
+  156  ls
+  157  aptitude install ffmpeg
+  158  sudo aptitude install ffmpeg
+  159  ls
+  160  cd vids/
+  161  ls
+  162  cd ..
+  163  cd
+  164  ls
+  165  mkdir handmovie
+  166  df -h
+  167  ffmpeg -i Hand\ Movie\ 1966\ Yvonne\ Rainer.mp4 -r 1 handmovie/image-%04d.jpeg
+  168  ls handmovie/image-0090.jpeg 
+  169  cd what-do-you-see/
+  170  th neural_style.lua -style_image _smoke-32.jpg -content_image '/home/dgoodwin/handmovie/image-0143.jpeg' -output_image Ssmoke_Chandmovie0143_cudnn_1000x.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend cudnn -cudnn_autotune -image_size 1000
+  171  cd ../neural-style
+  172  th neural_style.lua -style_image _smoke-32.jpg -content_image '/home/dgoodwin/handmovie/image-0143.jpeg' -output_image Ssmoke_Chandmovie0143_cudnn_1000x.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend cudnn -cudnn_autotune -image_size 1000
+  173  th neural_style.lua -style_image _clouds-cumulus-altocumulus.jpg -content_image '/home/dgoodwin/handmovie/image-0143.jpeg' -output_image Scumulus_Chandmovie0143_cudnn_1000x.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend cudnn -cudnn_autotune -image_size 1000
+  174  th neural_style.lua -style_image _cloud-single.jpg -content_image '/home/dgoodwin/handmovie/image-0143.jpeg' -output_image Scloud-single_Chand143_cudnn_1000x.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend cudnn -cudnn_autotune -image_size 1000
+  175  th neural_style.lua -content_image _cloud-single.jpg -style_image '/home/dgoodwin/handmovie/image-0143.jpeg' -output_image Ccloud-single_Shand143_cudnn_1000x.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend cudnn -cudnn_autotune -image_size 1000
+  176  cd Notebooks/
+  177  jupyter notebook
+  178  nvcc --version
+  179  cat /etc/profile
+  180  /usr/local/cuda/bin/nvcc
+  181  export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+  182  export PATH=$PATH:/usr/local/cuda/bin
+  183  nvcc --version
+  184  vi ~dgoodwin/.profile 
+  185  vi ~dgoodwin/.bashrc 
+  186  sudo ldconfig /usr/local/cuda/lib64
+  187  jupyter notebook
+  188  top
+  189  sudo aptitude install htop
+  190  htop
+  191  startx
+  192  vi ~dgoodwin/.bashrc 
+  193  source ~dgoodwin/.bashrc 
+  194  source ~dgoodwin/.profile 
+  195  history | grep th
+  196  th neural_style.lua -style_image _cloud-single.jpg -content_image '/home/dgoodwin/handmovie/image-0143.jpeg' -output_image Scloud-single_Chand143_cudnn_1000x.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend cudnn -cudnn_autotune -image_size 1000
+  197  ls
+  198  locate cloud-
+  199  locate cloud-s
+  200  locate cloud-single
+  201  sudo updatedb
+  202  locate cloud-single | more
+  203  th neural_style.lua -style_image /home/dgoodwin/what-do-you-see/imgs/_cloud-single.jpg -content_image '/home/dgoodwin/handmovie/image-0143.jpeg' -output_image Scloud-single_Chand143_cudnn_1000x.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend cudnn -cudnn_autotune -image_size 1000
+  204  th neural_style.lua -style_image /home/dgoodwin/what-do-you-see/imgs/_cloud-single.jpg -content_image '/home/dgoodwin/handmovie/image-0143.jpeg' -output_image Scloud-single_Chand143_cudnn_1000x.jpg -model_file models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend nn -image_size 1000
+  205  th
+  206  sudo reboot
+  207  cd what-do-you-see/
+  208  git pull
+  209  cp torch/makeanimation.py ../neural-style
+  210  cd ../neural-style
+  211  python makeanimation.py 
+  212  locate hand
+  213  locate hand | grep movie
+  214  python makeanimation.py -c /home/dgoodwin/what-do-you-see/handmovie -s /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg 
+  215  python makeanimation.py -c /home/dgoodwin/what-do-you-see/handmovie -s /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg -gpu 1
+  216  locate VGG_ILS
+  217  vi makeanimation.py 
+  218  python makeanimation.py -c /home/dgoodwin/what-do-you-see/handmovie -s /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg -gpu 1
+  219  vi makeanimation.py 
+  220  python makeanimation.py -c /home/dgoodwin/what-do-you-see/handmovie -s /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg -gpu 1
+  221  locate handmovie
+  222  python makeanimation.py -c /home/dgoodwin/what-do-you-see/handmovie -s /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg -gpu 1
+  223  python makeanimation.py -c /home/dgoodwin/what-do-you-see/handmovie -s /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg -gpu 1 | more
+  224  python makeanimation.py -c /home/dgoodwin/what-do-you-see/handmovie -s /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg -gpu 1 > text.sh
+  225  vi text.sh 
+  226  bash text.sh 
+  227  vi text.sh 
+  228  bash text.sh 
+  229  vi makeanimation.py 
+  230  python makeanimation.py -c /home/dgoodwin/what-do-you-see/handmovie -s /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg -gpu 1
+  231  vi makeanimation.py 
+  232  python makeanimation.py -c /home/dgoodwin/what-do-you-see/handmovie -s /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg -gpu 1
+  233  th neural_style.lua -content_image /home/dgoodwin/what-do-you-see/handmovie/image-0104.jpeg -style_image /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg -output_image /home/dgoodwin/neural-style/2017-06-01_20-59-09/1_S_cloud-single_Cimage-0194.png -model_file /home/dgoodwin/neural-style/models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend cudnn -gpu 1 -image_size 1000
+  234  th neural_style.lua -content_image /home/dgoodwin/what-do-you-see/handmovie/image-0104.jpeg -style_image /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg -output_image /home/dgoodwin/neural-style/2017-06-01_20-59-09/1_S_cloud-single_Cimage-0194.png -model_file /home/dgoodwin/neural-style/models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend cudnn -image_size 1000
+  235  th neural_style.lua -content_image /home/dgoodwin/what-do-you-see/handmovie/image-0104.jpeg -style_image /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg -output_image /home/dgoodwin/neural-style/2017-06-01_20-59-09/1_S_cloud-single_Cimage-0194.png -model_file /home/dgoodwin/neural-style/models/VGG_ILSVRC_19_layers.caffemodel -print_iter 4 -backend nn -image_size 1000
+  236  cat ~/.xsession-errors
+  237  cd
+  238  ls -lA
+  239  sudo su
+  240  mv ~/.Xauthority ~/.Xauthority.backup
+  241  sudo service lightdm restart
+  242  tail /var/log/Xorg.0.log
+  243  cat .xsession-errors
+  244  sudo service lightdm stop
+  245  ls
+  246  locate NVIDIA
+  247  locate NVIDIA | grep run
+  248  lynx google.com
+  249  sudo aptitude install lynx
+  250  lynx google.com
+  251  wget media.metro.net/doug/NVIDIA-Linux-x86_64-375.66.run
+  252  wget https://media.metro.net/doug/NVIDIA-Linux-x86_64-375.66.run
+  253  wget http://media.metro.net/doug/NVIDIA-Linux-x86_64-375.66.run
+  254  wget http://media.metro.net.s3.amazonaws.com/doug/NVIDIA-Linux-x86_64-375.66.run
+  255  ls
+  256  sudo bash NVIDIA-Linux-x86_64-375.66.run 
+  257  sudo reboot
+  258  sudo su
+  259  startx
+  260  cd
+  261  cd neural-style
+  262  python makeanimation.py 
+  263  python makeanimation.py -c /home/dgoodwin/what-do-you-see/handmovie -s /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg -gpu 1
+  264  th neural_style.lua         -content_image /home/dgoodwin/what-do-you-see/handmovie/image-0104.jpeg         -style_image /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg         -output_image /home/dgoodwin/neural-style/2017-06-01_23-04-42/1_S_cloud-single_Cimage-0104.png         -model_file /home/dgoodwin/neural-style/models/VGG_ILSVRC_19_layers.caffemodel         -print_iter 4         -backend cudnn -cudnn_autotune         -gpu 1         -image_size 1000
+  265  cd
+  266  git clone https://github.com/torch/cunn
+  267  cd cunn
+  268  luarocks make rocks/cunn-scm-1.rockspec
+  269  nvidia-smi -q | head
+  270  sudo aptitude update
+  271  sudo aptitude upgrade
+  272  luarocks install cltorch
+  273  cd
+  274  git clone --recursive https://github.com/hughperkins/distro -b distro-cl ~/torch-cl
+  275  cd ~/torch-cl
+  276  bash install-deps
+  277  ./install.sh
+  278  cd
+  279  cd neural-style
+  280  python makeanimation.py 
+  281  python makeanimation.py -c /home/dgoodwin/what-do-you-see/handmovie -s /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg -gpu 1
+  282  th neural_style.lua         -content_image /home/dgoodwin/what-do-you-see/handmovie/image-0104.jpeg         -style_image /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg         -output_image /home/dgoodwin/neural-style/2017-06-01_23-20-28/1_S_cloud-single_Cimage-0104.png         -model_file /home/dgoodwin/neural-style/models/VGG_ILSVRC_19_layers.caffemodel         -print_iter 4         -backend cudnn -cudnn_autotune         -gpu 1         -image_size 1000
+  283  th
+  284  cd
+  285  cd torch-cl/
+  286  source ~/torch-cl/install/bin/torch-activate
+  287  luajit -l torch -e 'torch.test()'
+  288  luajit -l nn -e 'nn.test()'
+  289  luajit -l cltorch -e 'cltorch.test()'
+  290  luajit -l clnn -e 'clnn.test()'
+  291  luajit -l cutorch -e 'cutorch.test()'
+  292  luajit -l cunn -e 'nn.testcuda()'
+  293  sudo apt-get install mesa-utils
+  294  glxgears
+  295  sudo apt-get install glmark2
+  296  glmark2
+  297  sudo aptitude uninstall glmark2
+  298  sudo aptitude remove glmark2
+  299  cd
+  300  cd Downloads/
+  301  sudo bash Unigine_Heaven-4.0.run 
+  302  cd
+  303  cd Downloads/Unigine_Heaven-4.0/
+  304  bash heaven 
+  305  cd
+  306  cd neural-style
+  307  python makeanimation.py 
+  308  th neural_style.lua         -content_image /home/dgoodwin/what-do-you-see/handmovie/image-0104.jpeg         -style_image /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg         -output_image /home/dgoodwin/neural-style/2017-06-01_23-20-28/1_S_cloud-single_Cimage-0104.png         -model_file /home/dgoodwin/neural-style/models/VGG_ILSVRC_19_layers.caffemodel         -print_iter 4         -backend cudnn -cudnn_autotune         -gpu 1         -image_size 1000
+  309  th neural_style.lua         -content_image /home/dgoodwin/what-do-you-see/handmovie/image-0104.jpeg         -style_image /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg         -output_image /home/dgoodwin/neural-style/2017-06-01_23-20-28/1_S_cloud-single_Cimage-0104.png         -model_file /home/dgoodwin/neural-style/models/VGG_ILSVRC_19_layers.caffemodel         -print_iter 4         -backend cudnn -cudnn_autotune            -image_size 1000
+  310  th neural_style.lua         -content_image /home/dgoodwin/what-do-you-see/handmovie/image-0104.jpeg         -style_image /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg         -output_image /home/dgoodwin/neural-style/2017-06-01_23-20-28/1_S_cloud-single_Cimage-0104.png         -model_file /home/dgoodwin/neural-style/models/VGG_ILSVRC_19_layers.caffemodel         -print_iter 4                  -image_size 1000
+  311  th neural_style.lua         -content_image /home/dgoodwin/what-do-you-see/handmovie/image-0104.jpeg         -style_image /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg         -output_image /home/dgoodwin/neural-style/2017-06-01_23-20-28/1_S_cloud-single_Cimage-0104.png         -model_file /home/dgoodwin/neural-style/models/VGG_ILSVRC_19_layers.caffemodel         -print_iter 4                  -image_size 500
+  312  atom makeanimation.
+  313  python makeanimation.py 
+  314  python makeanimation.py -c /home/dgoodwin/what-do-you-see/handmovie -s /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg -gpu 1
+  315  th neural_style.lua         -content_image /home/dgoodwin/what-do-you-see/handmovie/image-0104.jpeg         -style_image /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg         -output_image /home/dgoodwin/neural-style/2017-06-01_23-41-15/1_S_cloud-single_Cimage-0104.png         -model_file /home/dgoodwin/neural-style/models/VGG_ILSVRC_19_layers.caffemodel         -print_iter 4         -backend cudnn -cudnn_autotune         -image_size 720
+  316  sudo chown -R dgoodwin /usr/local
+  317  th neural_style.lua         -content_image /home/dgoodwin/what-do-you-see/handmovie/image-0104.jpeg         -style_image /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg         -output_image /home/dgoodwin/neural-style/2017-06-01_23-41-15/1_S_cloud-single_Cimage-0104.png         -model_file /home/dgoodwin/neural-style/models/VGG_ILSVRC_19_layers.caffemodel         -print_iter 4         -backend cudnn -cudnn_autotune         -image_size 720
+  318  . ~/.bashrc 
+  319  th neural_style.lua         -content_image /home/dgoodwin/what-do-you-see/handmovie/image-0104.jpeg         -style_image /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg         -output_image /home/dgoodwin/neural-style/2017-06-01_23-41-15/1_S_cloud-single_Cimage-0104.png         -model_file /home/dgoodwin/neural-style/models/VGG_ILSVRC_19_layers.caffemodel         -print_iter 4         -backend cudnn -cudnn_autotune         -image_size 720
+  320  th neural_style.lua         -content_image /home/dgoodwin/what-do-you-see/handmovie/image-0104.jpeg         -style_image /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg         -output_image /home/dgoodwin/neural-style/2017-06-01_23-41-15/1_S_cloud-single_Cimage-0104.png         -model_file /home/dgoodwin/neural-style/models/VGG_ILSVRC_19_layers.caffemodel         -print_iter 4                -image_size 720
+  321  python makeanimation.py -c /home/dgoodwin/what-do-you-see/handmovie -s /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg -gpu 1
+  322  python makeanimation.py -c /home/dgoodwin/what-do-you-see/handmovie -s /home/dgoodwin/what-do-you-see/imgs/sources/_cloud-single.jpg -gpu 0
+  323  python makeanimation.py -c /home/dgoodwin/what-do-you-see/handmovie -s /home/dgoodwin/what-do-you-see/imgs/sources/_smoke-32.jpg -gpu 0
+  324  ls -ltr
+  325  cd 2017-06-02_00-22-36/
+  326  mkdir intermediates
+  327  mv *00.png intermediates/
+  328  vi _notes.md
+  329  cp _notes.md ../2017-06-02_00-05-35/
+  330  cd ../../what-do-you-see/
+  331  git status
+  332  git add 2017*
+  333  git commit -m "example images"
+  334  git pull ; git push
+  335  history
+  336  history > bashhistory.txt
